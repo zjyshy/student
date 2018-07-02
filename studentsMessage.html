@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/SM.css">
+    <link rel="stylesheet" href="css/MS.css">
+    <script src="js/SM.js"></script>
+    <title>个人信息系统</title>
+</head>
+<body>
+    <div class="signin_system">
+            <h1>欢迎来到个人校园信息系统</h1>
+        <div id="signin_page" class="main">
+            
+            <h2>登录</h2>
+            <div class="input_content">
+                <form action="" onsubmit="return false">
+                    <div><span>学 号</span><input type="text" placeholder="Student ID" class="signin_studentId"></div>
+                    <div><span>密 码</span><input type="password" placeholder="password" class="signin_password"></div>
+                    <input id="reset" type="reset"><button class="BSignin" >登录</button>
+                </form>
+                  
+                
+                <a href="#" class="appear_login_page">注 册 </a><a href="" style="float: right ;margin-right:30px;">忘记密码</a>
+                <p class="signin_De"> </p>
+            </div>
+        </div>
+        <div id="login_page" class="main">
+            <h2>注册</h2>
+            <div class="input_content">
+                <div><span>学 号</span><input class="login_studentId" type="text" onkeyup="this.value=this.value.replace(/\D/g,'')"></div>
+                <div><span>姓 名</span><input  class="login_name"  type="text"></div>
+                <div><span>密 码</span><input class="login_password" type="text"></div>
+                <div><span id="no">重复密码</span><input class="login_repeatPassword" type="text"></div>
+                <button   class="login_button login_button_left login_enter">确认</button><button  class="login_button login_return">返回</button>
+                <p class="error_hint" > </p>
+                
+    
+                
+            </div>
+         
+        </div>
+        <h1 class=" login_success">注册成功啦</h1>
+    </div>
+
+
+
+    <div class="main_system" > 
+
+        <div class="main_system_top">
+            <h1>你好,<span class="main_system_name">  </span>同学</h1>
+            <h3 class="date"> </h1>
+        </div>  
+
+        <div class="main_system_subject">
+            <div class="main_system_left">
+                <ul>
+                    <li class= "left-list">学生信息展示</li>
+                    <li class= "left-list">学生信息修改</li>
+                
+                </ul>
+
+            </div>   
+
+            
+            <div class="main_system_right">
+                <h1 class="welcome">欢迎来到个人信息系统</h1>
+                <div class="show">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>学号</th>
+                                <th>姓名</th>
+                                <th>性别</th>
+                                <th>系部</th>
+                                <th>专业</th>
+                                <th>班级</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr class="test">
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="show">
+                    <ul>
+                        <li>系部 <input type="text" class="setSMIn"></li>
+                        <li>专业 <input type="text" class="setSMIn"></li>
+                        <li>班级 <input type="text" class="setSMIn"></li>
+                        <li>性别 <input type="text" class="setSMIn"></li>
+                        <button class="setSMConfirm">确定</button>
+                        <button class="cancelSM">取消</button>`
+                    </ul>
+                </div>
+                <div class="show"><input type="hidden"></div>
+                <div class="show"></div>
+
+            </div>
+
+    </div>
+</div>
+
+    
+</body>
+</html>
