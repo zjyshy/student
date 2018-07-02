@@ -1,0 +1,99 @@
+html,body{
+    height: 100%;
+    background-color: #343A40;
+    color: #fff;
+}
+h2{
+    text-align: center;
+    letter-spacing: 30px;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+.main_system{
+    display: none;
+}
+
+#login_page{
+    opacity: 0;
+    transition: opacity 1.5s ease;
+   
+   
+}
+.main{
+
+    margin-top: 150px;
+}
+.main input{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+    border-radius:5px;
+
+
+}
+
+.input_content{
+
+    width: 380px;
+    margin: 0 auto;
+}
+
+.input_content span{
+    letter-spacing: 15px;
+}
+#reset{
+    
+    width: 125px;
+    background-color: #727B84;
+    color: #fff;
+    margin-left:90px; 
+    cursor: pointer;
+
+}
+
+.main button{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 125px;
+    background-color: #727B84;
+    color: #fff;
+    border-radius:5px;
+}
+.login_button{
+
+    margin-left: 10px;
+}
+.login_button_left{
+    margin-left: 90px;
+
+}
+#no{
+    letter-spacing: normal;
+    padding-right:16px; 
+}
+.testIsNaN ,.testpassword{
+
+    
+    opacity: 0;
+    transition: opacity .5s ease;
+
+}
+
+.login_success{
+    display: none;
+    margin-top: 200px;
+    text-align: center;
+}
+.error_hint{
+
+    opacity: 0;
+}

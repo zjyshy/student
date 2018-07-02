@@ -1,0 +1,99 @@
+
+.main_system{
+    display: none;
+    height: 100%;
+    position: relative;
+ 
+}
+.main_system_left ul{
+
+  
+    width: 200px;
+    padding: 0;
+    list-style: none;
+}
+
+.main_system_left{
+    float: left;
+}
+.main_system_left li{
+
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom:1px solid #fff;
+
+}
+.main_system_subject{
+    box-sizing: border-box;
+    
+    clear: both;
+    width: 1024px;
+    margin: 0 auto;
+
+}
+.main_system_top{
+
+    height: 300px;
+    width: 1024px;
+    background:url(../img/top.jpg);
+    background-size: 100%;
+   
+  
+    margin:0 auto;  
+   
+   
+}
+.main_system_left li{
+    cursor: pointer;
+    border-bottom:1px solid #555;
+}
+.main_system_left li:hover{
+    background-color:#ccc;
+    border-radius:10px;
+    
+
+}
+.main_system_right ul{
+    list-style: none;
+    padding: 10px 0 0 350px;
+    margin: 0;
+}
+
+.main_system_right input {
+
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+    border-radius:5px;
+
+}
+.main_system_right button{
+        border: none; 
+        outline: none;
+        height: 40px;
+        width: 125px;
+        background-color: #727B84;
+        color: #fff;
+        border-radius: 5px;
+}
+.setSMConfirm{
+
+    margin-left:50px; 
+}
+.show{
+    display:none;
+}
+.main_system h1{
+    text-align:center;
+    padding-top:80px;
+   
+    
+}
+.test th{
+
+    border-left: 1px solid #fff;
+}
